@@ -67,7 +67,7 @@ if __name__ == '__main__':
 
         That's why I used the "./Resources/Gift_Cards_reviews.json" route.
     '''
-    reviews = read_file("./Code/Resources/Gift_Cards_reviews.json")
+    reviews = read_file("Resources/Gift_Cards_reviews.json")
     #for user_review in reviews:
     #    print(user_review)
     process_reviews(reviews)
