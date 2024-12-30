@@ -101,7 +101,7 @@ if __name__ == '__main__':
 
     # Analisis por Rating
     plt.bar(tags, rating_values)
-    plt.title('Análisis de reseñas amazon por Bert')
+    plt.title('Análisis de reseñas amazon por Rating')
     plt.xlabel('Etiqueta')
     plt.ylabel('Cantidad')
     plt.show()
