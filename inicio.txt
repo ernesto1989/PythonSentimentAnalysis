@@ -7,3 +7,5 @@ Para crear e instalar env:
 
 
 Puedes ver el video o leer el readme para instalar
+
+Link al video: https://youtu.be/5n7sUQLgANs

@@ -16,8 +16,8 @@ MODEL = f"nlptown/bert-base-multilingual-uncased-sentiment"
 tokenizer = AutoTokenizer.from_pretrained(MODEL)
 model = AutoModelForSequenceClassification.from_pretrained(MODEL)
 
-##tokenizer.save_pretrained(MODEL)
-##model.save_pretrained(MODEL)
+#tokenizer.save_pretrained(MODEL)
+#model.save_pretrained(MODEL)
 
 def analyze(txt):
     tokens = tokenizer.encode(txt,return_tensors='pt')

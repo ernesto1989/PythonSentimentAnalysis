@@ -9,7 +9,7 @@ Realizado durante las fechas Diciembre 28 y Diciembre 30 del 2024.
 
 ### Documentación del Proyecto
 
-#### Version 1
+#### Instrucciones
    ##### Crea el ambiente virtual 
     Para no afectar tu ambiente global python, crea tu virtual env e instala los requerimientos de librerías.
 
@@ -19,14 +19,14 @@ Realizado durante las fechas Diciembre 28 y Diciembre 30 del 2024.
 
     ##### Descarga el modelo Bert por primera vez
 
-    En el archivo Bert.py se encuentran comentadas las lineas 17 y 18.
+    En el archivo Bert.py se encuentran comentadas las lineas 19 y 20.
     Estas lineas lo que hacen es descargar el modelo Bert entrenado para correr en local.
     
     A su vez, este archivo tiene un módulo de pruebas que puedes correr ejecutando este módulo 
     directo en el Python REPL. Al ejecutarlo, se generará una carpeta local llamada nlptown donde 
     se guardará el modelo y el tokenizer.
 
-    Corre ahora si el archivo main.py con las lineas 17 y 18 comentadas del archvio Bert.py
+    Corre ahora si el archivo main.py con las lineas 19 y 20 comentadas del archvio Bert.py
 
     ##### Ejecuta el módulo main.py
 
@@ -49,3 +49,7 @@ Realizado durante las fechas Diciembre 28 y Diciembre 30 del 2024.
 
     1. Una con el modelo bert (BertRes.png)
     2. Otra utilizando los ratings (RatingRes.py) que se encontraban directo en el archivo JSON.
+
+#### Video
+
+    El link para el video: https://youtu.be/5n7sUQLgANs
